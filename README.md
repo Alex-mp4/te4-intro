@@ -18,3 +18,6 @@ Genom att använda 'vite' skapar jag en sida vars mål är att göra en interakt
 
 ### September 6 | Onsdag - Eftermiddag
 I stort sätt användes liknande tekniker till vad 'vite-project' först visade. Det finns en array med kommande scenarion, och beroende på valen förs man vidare till nästa scenario. Detta görs dynamiskt eftersom den återanvänder knappar och divar då den endast förnyar informationen på dessa medel. Framöver ska de faktiska valen färdigställas och en story ska vara gjord. Dessutom ska designen anpassas.
+
+### September 7 | Torsday - Förmiddag
+Det har skapats en introduktion till berättelsen och en gnutta story. Nu finns det möjligheten att dynamiskt utse knappar beroende på antalet val till scenariot. När man klickar på en knapp visas alla scenarion och dina val ovan. Sist men inte minst har jag anpassat css utseendet till hur figma ser ut. Framöver gäller det endast att utveckla alla dessa fronter samt fixa buggen med "history" när du klickar på ett val, då den ibland repeterar scenarion.
