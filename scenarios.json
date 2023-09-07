@@ -1,0 +1,164 @@
+[
+    {
+        "id": 0,
+        "text": "In a world not so dissimilar from our own, but far removed from its once-thriving glory, the remnants of civilization stand as mere shadows of their former selves. In this modern-day dystopia, the boundaries between science and magic blur, giving rise to a realm where creatures of ancient fantasy roam alongside the remnants of advanced technology. The skyline, once adorned with gleaming skyscrapers and bustling metropolises, now boasts twisted spires and towering fortresses, reminiscent of a medieval age long past. Ruined cities, overtaken by nature, serve as haunting reminders of humanity's fall from grace.\n\nThe air is thick with an eerie mixture of despair and wonder. Beneath the ominous crimson skies, mythical creatures that once existed solely in the pages of ancient folklore have returned from the brink of extinction. Majestic dragons soar through the heavens, their scales glinting with an otherworldly luminescence, while trolls and ogres lurk in the abandoned subway tunnels, their grotesque forms illuminated by the soft glow of bioluminescent fungi. In this dystopian world, magic has become as much a science as any technology once was. The relics of the past, from advanced artificial intelligence systems to smartphones, are now considered ancient artifacts, their purpose and meaning lost to the sands of time.",
+        "choices": [
+            {
+                "text": "Understood.",
+                "nextScenario": 1
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "text": "In this modern-day dystopian world, amidst the chaotic convergence of science and fantasy, you have control of Alexander's destiny—weaving through his reality as it were. Born into the ruins of a once-great city, Alexander embodied the spirit of resilience and curiosity that had become increasingly rare in this harsh new reality.\n\nThe travels across the grueling cities were far from ordinary, to the common folk, as he—or you, rather—had to tough through dangers unknown. Upon having such thought, an orc, much larger than yourself walks out of a nearby alleway and threatens your life as their stomach rumbles.",
+        "choices": [
+            {
+                "text": "Draw your sword.",
+                "nextScenario": 2
+            },
+            {
+                "text": "Hide.",
+                "nextScenario": 6
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "text": "With your sword in hand, you ready yourself for combat. The orc, now towering over you with its mere presence, smiles in glee as it bends forward. You swing your sword at it, but the creature merely catches the weapon and throws it away.",
+        "choices": [
+            {
+                "text": "Draw another sword.",
+                "nextScenario": 3
+            },
+            {
+                "text": "Flee.",
+                "nextScenario": 5
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "text": "You swing for the orc. It catches the blade once more and throws it to the side.",
+        "choices": [
+            {
+                "text": "Draw yet another sword.",
+                "nextScenario": 3
+            },
+            {
+                "text": "Flee.",
+                "nextScenario": 4
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "text": "You turn around in an attempt to pace away from the creature, but due to stepping on one of the blades you trip and fall. The orc crushes you behind its might.",
+        "choices": [
+            {
+                "text": "Start over.",
+                "nextScenario": 0
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "text": "Realizing you are no match for the orc, you tuck-tail and run. The orc, much slower than you, gets outpaced while you continue on your journey.\n\nAfter another while of traveling a familiar building crosses your path. A group of four spires with a distinct purple hue, solemnly reaching for the skies. One saying 'Teknik', the next 'El och energi', 'Estet' and the last 'Handel'. Which one do you enter?",
+        "choices": [
+            {
+                "text": "Teknik.",
+                "nextScenario": 7
+            },
+            {
+                "text": "El och energi.",
+                "nextScenario": 8
+            },
+            {
+                "text": "Estet.",
+                "nextScenario": 9
+            },
+            {
+                "text": "Handel.",
+                "nextScenario": 10
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "text": "You lunge over to a stray box in the area even though it explicitly saw you. It slams its fist into the box, causing some of the rubble to shoot into their eyes but also your ankle. You limp away in the chaos and flee.\n\nDespite your bum ankle, you travel until a familiar building crosses your path. A group of four spires with a distinct purple hue, solemnly reaching for the skies. One saying 'Teknik', the next 'El och energi', 'Estet' and the last 'Handel'. Which one do you enter?",
+        "choices": [
+            {
+                "text": "Teknik.",
+                "nextScenario": 7
+            },
+            {
+                "text": "El och energi.",
+                "nextScenario": 8
+            },
+            {
+                "text": "Estet.",
+                "nextScenario": 9
+            },
+            {
+                "text": "Handel.",
+                "nextScenario": 10
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "text": "Fine choice. Upon entering the spire you are greeted with a heinous stench. It appears your peers have a tendency to go without showers. How do you prevent passing out?",
+        "choices": [
+            {
+                "text": "Draw yet another sword.",
+                "nextScenario": 4
+            },
+            {
+                "text": "Flee.",
+                "nextScenario": 5
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "text": "It appears you have strayed from that of normality, alas. The spire metaphorically greets you with a nature akin none other; as if your brain is naturally decomposing. You need to do something fast as to not enter the El och Energi hivemind.",
+        "choices": [
+            {
+                "text": "Draw yet another sword.",
+                "nextScenario": 4
+            },
+            {
+                "text": "Flee.",
+                "nextScenario": 5
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "text": "It appears you have strayed from that of normality, alas. Upon entering the spire colors begin to sprawl all around you in a wild manner. The core, better known as Adobe Creative Cloud, has been situated at the top of the spire. Albeit overwhelmed from its usage. First buffering, until time stops in its place.",
+        "choices": [
+            {
+                "text": "Draw yet another sword.",
+                "nextScenario": 4
+            },
+            {
+                "text": "Flee.",
+                "nextScenario": 5
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "text": "It appears you have strayed from that of normality, alas. In direct contrast to first assumptions, you enter a barren wasteland. Not a single soul was visible, nor any sounds of life.",
+        "choices": [
+            {
+                "text": "Draw yet another sword.",
+                "nextScenario": 4
+            },
+            {
+                "text": "Flee.",
+                "nextScenario": 5
+            }
+        ]
+    }
+]

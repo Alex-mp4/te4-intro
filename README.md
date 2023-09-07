@@ -21,3 +21,6 @@ I stort sätt användes liknande tekniker till vad 'vite-project' först visade.
 
 ### September 7 | Torsday - Förmiddag
 Det har skapats en introduktion till berättelsen och en gnutta story. Nu finns det möjligheten att dynamiskt utse knappar beroende på antalet val till scenariot. När man klickar på en knapp visas alla scenarion och dina val ovan. Sist men inte minst har jag anpassat css utseendet till hur figma ser ut. Framöver gäller det endast att utveckla alla dessa fronter samt fixa buggen med "history" när du klickar på ett val, då den ibland repeterar scenarion.
+
+### September 7 | Torsdag - Eftermiddag
+Efter feedback från Jens har jag omformaterat stora delar av min kod. Exempelvist genom att använda en JSON-fil för självaste berättelsen och genom att skapa knappar med hjälp av informationen denna JSON-fil kan ge. Nu är historiken på berättelsen finare. Framöver behöver jag ta bort gamla knappar som har använts redan, bygga på berättelsen och göra css:en finare och finare!!
