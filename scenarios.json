@@ -15,11 +15,13 @@
         "choices": [
             {
                 "text": "Draw your sword.",
-                "nextScenario": 2
+                "nextScenario": 2,
+                "sword": false
             },
             {
                 "text": "Hide.",
-                "nextScenario": 6
+                "nextScenario": 6,
+                "leg": false
             }
         ]
     },
@@ -110,12 +112,13 @@
         "text": "Fine choice. Upon entering the spire you are greeted with a heinous stench. It appears your peers have a tendency to go without showers. How do you prevent passing out?",
         "choices": [
             {
-                "text": "Draw yet another sword.",
-                "nextScenario": 4
+                "text": "Join the masses.",
+                "nextScenario": 11,
+                "smell": true
             },
             {
-                "text": "Flee.",
-                "nextScenario": 5
+                "text": "Cut off your nose.",
+                "nextScenario": 12
             }
         ]
     },
@@ -124,12 +127,12 @@
         "text": "It appears you have strayed from that of normality, alas. The spire metaphorically greets you with a nature akin none other; as if your brain is naturally decomposing. You need to do something fast as to not enter the El och Energi hivemind.",
         "choices": [
             {
-                "text": "Draw yet another sword.",
-                "nextScenario": 4
+                "text": "Prank one of your peers.",
+                "nextScenario": 13
             },
             {
-                "text": "Flee.",
-                "nextScenario": 5
+                "text": "Avoid going near your peers.",
+                "nextScenario": 14
             }
         ]
     },
@@ -138,11 +141,11 @@
         "text": "It appears you have strayed from that of normality, alas. Upon entering the spire colors begin to sprawl all around you in a wild manner. The core, better known as Adobe Creative Cloud, has been situated at the top of the spire. Albeit overwhelmed from its usage. First buffering, until time stops in its place.",
         "choices": [
             {
-                "text": "Draw yet another sword.",
+                "text": "Open Task Manager.",
                 "nextScenario": 4
             },
             {
-                "text": "Flee.",
+                "text": "Wait for Adobe Creative Cloud to respond.",
                 "nextScenario": 5
             }
         ]
@@ -158,6 +161,66 @@
             {
                 "text": "Flee.",
                 "nextScenario": 5
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "text": "Technically, as long as you get used to the stench, it will never disturb you. You enter the muskiest space you can find and absorb the flavors of the air within minutes. Where to?",
+        "choices": [
+            {
+                "text": "Join the masses.",
+                "nextScenario": 11
+            },
+            {
+                "text": "Cut off your nose.",
+                "nextScenario": 12
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "text": "With one quick maneuver your nose lands on the floor beneath you. You then realize that smell isn't percieved in the nose, but rather behind it. The stench slowly consumes you until your brain effectively turns off.",
+        "choices": [
+            {
+                "text": "Start over.",
+                "nextScenario": 0
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "text": "You think that in order to keep your brain flowing, you have to put your mind to use. What prank do you do?",
+        "choices": [
+            {
+                "text": "Throw salt packets across the spire.",
+                "nextScenario": 14
+            },
+            {
+                "text": "Unplug any visible chord.",
+                "nextScenario": 15
+            },
+            {
+                "text": "Take a valuable piece of equipment and misplace it.",
+                "nextScenario": 16
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "text": "As you hurl sodium chloride across the various rooms, you hear groans before one of the other students appear to be chasing you down with bloodshot eyes.",
+        "choices": [
+            {
+                "text": "Throw salt in his way.",
+                "nextScenario": 15
+            },
+            {
+                "text": "Explain yourself.",
+                "nextScenario": 16
+            },
+            {
+                "text": "Draw your sword.",
+                "nextScenario": 17
             }
         ]
     }
