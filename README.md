@@ -24,3 +24,6 @@ Det har skapats en introduktion till berättelsen och en gnutta story. Nu finns 
 
 ### September 7 | Torsdag - Eftermiddag
 Efter feedback från Jens har jag omformaterat stora delar av min kod. Exempelvist genom att använda en JSON-fil för självaste berättelsen och genom att skapa knappar med hjälp av informationen denna JSON-fil kan ge. Nu är historiken på berättelsen finare. Framöver behöver jag ta bort gamla knappar som har använts redan, bygga på berättelsen och göra css:en finare och finare!!
+
+### September 8 | Fredag - Förmiddag
+Nu försvinner knappar när man klickar på ett specifikt val. Dessutom har det skapats små css-ändringar, främst när det kommer till knapparnas upplägg. Mer av berättelsen har såklart också skapats men den är långt från klar. Framöver behöver det finnas ett slags slut, gamestates, och responsivitet.
