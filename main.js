@@ -6,6 +6,7 @@ document.querySelector('#app').innerHTML = `
 <div id="div" class="scroller">
 <div id="output"></div>
 </div>
+<div class="blink">▉</div>
 <hr>
 <div id="buttonContainer"></div>
 `

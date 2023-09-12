@@ -62,7 +62,7 @@ ul {
   overflow-anchor: auto;
 }
 
-p {
+.fadein {
   overflow-anchor: auto;
   animation: fadeIn 3s;
 }
@@ -121,6 +121,21 @@ button:focus-visible {
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orange; }
+}
+
+.blink {
+  animation: blink-animation 1.5s steps(2, start) infinite;
+  -webkit-animation: blink-animation 1.5s steps(2, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
 
 @media screen and (max-width:728px) {  

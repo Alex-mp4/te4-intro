@@ -12,14 +12,11 @@ export function setup(element) {
         showScenario(0)
     }
 
-    function buttonPress() {
-
-    }
-
     function showScenario(scenarioId) {
         console.log(scenarioId)
         let scenario = json[scenarioId]
         let scenarioT = document.createElement("p")
+        scenarioT.classList.add('fadein')
         let textChoice = document.createElement("p")
         textChoice.classList.add('choice')
 
