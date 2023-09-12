@@ -27,3 +27,9 @@ Efter feedback från Jens har jag omformaterat stora delar av min kod. Exempelvi
 
 ### September 8 | Fredag - Förmiddag
 Nu försvinner knappar när man klickar på ett specifikt val. Dessutom har det skapats små css-ändringar, främst när det kommer till knapparnas upplägg. Mer av berättelsen har såklart också skapats men den är långt från klar. Framöver behöver det finnas ett slags slut, gamestates, och responsivitet.
+
+### September 11 | Måndag - Förmiddag
+Kaj gjorde en solid igenomkoll på programmet och berättade sina åsikter och upplevelser. Allt som allt lät han nöjd men han frågade efter fler funktioner som skulle göra programmet verkligen mitt, samt att jag bör fundera på framtida funktioner. Queue genomgången om kreativitet här. Därefter, då det inte fanns mycket tid över, hann jag bara implementera en scroll anchor som håller användaren på botten av sidan (alltså där ny information poppar fram) och responsivitet (någorlunda).
+
+### September 12 | Tisdag - Förmiddag
+Då det fanns funktioner jag ville implemtera behövde jag omformatera hur javascriptet och HTML:en jobbar med varandra. Nu skapa JS fler element för att kunna urskilja de olika bitarna av den. Med detta kan ny text (ny-uppvisade scenarion) flyta in med en animation för ytterligare klarhet vart man bör läsa då det kan bli mycket text. Dessutom blir valen i text format likadana i färg jämfört med knapparna. Mer klarhet alltså. Dessutom för att utveckla känslan av ett klassiskt terminal-typ-spel så har jag implementerat en blinkande box (som om du skulle skriva).
