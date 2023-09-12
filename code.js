@@ -2,9 +2,7 @@ import json from "./scenarios.json"
 
 export function setup(element) {
 
-    const output = element.querySelector('#output')
-    //const input = element.queryselector('#input')
-    const list = element.querySelector('#list')
+    //const output = element.querySelector('#output')
     const buttonList = element.querySelector('#buttonContainer')
     const div = document.querySelector('#div');
     let state = {}
@@ -21,9 +19,12 @@ export function setup(element) {
     function showScenario(scenarioId) {
         console.log(scenarioId)
         let scenario = json[scenarioId]
-
         let scenarioT = document.createElement("p")
-        scenarioT.innerText += scenario.text
+        let textChoice = document.createElement("p")
+        textChoice.classList.add('choice')
+
+
+        scenarioT.innerText = scenario.text
         div.appendChild(scenarioT);
 
         scenario.choices.forEach((choice) =>{
@@ -31,10 +32,10 @@ export function setup(element) {
             button.innerText = choice.text
             button.addEventListener("click", () => {
                 console.log(choice)
-                output.innerText += scenario.text + '\n\n>' + choice.text + '\n\n'
+                textChoice.innerText = '>' + choice.text
+                div.appendChild(textChoice)
                 scenarioId = choice.nextScenario
                 buttonList.innerHTML = ''
-                scenarioT.innerHTML = ''
                 showScenario(scenarioId)
             })
             buttonList.appendChild(button)
