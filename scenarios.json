@@ -169,11 +169,11 @@
         "text": "Technically, as long as you get used to the stench, it will never disturb you. You enter the muskiest space you can find and absorb the flavors of the air within minutes. Where to?",
         "choices": [
             {
-                "text": "Join the masses.",
+                "text": "CONT.",
                 "nextScenario": 11
             },
             {
-                "text": "Cut off your nose.",
+                "text": "CONT.",
                 "nextScenario": 12
             }
         ]
@@ -221,6 +221,126 @@
             {
                 "text": "Draw your sword.",
                 "nextScenario": 17
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "text": "As if you had thrown ball bearings across the floor, the student miraculously begins slipping on the salt. You effectively managed to get them off your tail.",
+        "choices": [
+            {
+                "text": "CONT.",
+                "nextScenario": 15
+            },
+            {
+                "text": "CONT.",
+                "nextScenario": 16
+            },
+            {
+                "text": "CONT.",
+                "nextScenario": 17
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "text": "Words do not appear to be an effective method of stopping this particular student. Whether they even heard you or not went unknown. The student slams into your body with an otherwordly might.",
+        "choices": [
+            {
+                "text": "Start over.",
+                "nextScenario": 0
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "text": "Even the sight of the sword throws the student off until they retreat. Although, now you have a bigger problem at hand; Weapons are prohibited from the halls. You feel eyes gazing onto you. The hall monitors.",
+        "choices": [
+            {
+                "text": "Ready yourself for combat.",
+                "nextScenario": 18
+            },
+            {
+                "text": "Flee.",
+                "nextScenario": 22
+            },
+            {
+                "text": "Hide.",
+                "nextScenario": 20
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "text": "Two hall monitors approach you with killing intent. Do you go on the:",
+        "choices": [
+            {
+                "text": "Offensive?",
+                "nextScenario": 19
+            },
+            {
+                "text": "Defensive?",
+                "nextScenario": 21
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "text": "You pounce on of them and slash them in one fell swoop, however, the other one gets the jump on you and gives you a slash in return. Do you go on the:",
+        "choices": [
+            {
+                "text": "Offensive?",
+                "nextScenario": 20
+            },
+            {
+                "text": "Defensive?",
+                "nextScenario": 21
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "text": "Throughout its opening you take the advantage. Albeit injured, you came out on top.",
+        "choices": [
+            {
+                "text": "CONT.",
+                "nextScenario": 20
+            },
+            {
+                "text": "CONT.",
+                "nextScenario": 21
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "text": "Its continuous slashes eventually overwhelm you.",
+        "choices": [
+            {
+                "text": "Start over.",
+                "nextScenario": 0
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "text": "You find yourself outside. A group of four spires with a distinct purple hue, solemnly reaching for the skies. One saying 'Teknik', the next 'El och energi', 'Estet' and the last 'Handel'. Which one do you enter?",
+        "choices": [
+            {
+                "text": "Teknik.",
+                "nextScenario": 7
+            },
+            {
+                "text": "El och energi.",
+                "nextScenario": 8
+            },
+            {
+                "text": "Estet.",
+                "nextScenario": 9
+            },
+            {
+                "text": "Handel.",
+                "nextScenario": 10
             }
         ]
     }
