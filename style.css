@@ -60,6 +60,10 @@ ul {
 
 #output {
   overflow-anchor: auto;
+}
+
+p {
+  overflow-anchor: auto;
   animation: fadeIn 3s;
 }
 
